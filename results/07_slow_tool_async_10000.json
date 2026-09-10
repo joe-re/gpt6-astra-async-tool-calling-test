@@ -1,0 +1,63 @@
+{
+  "first": {
+    "status": "completed",
+    "usage": {
+      "input_tokens": 199,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 223,
+      "output_tokens_details": {
+        "reasoning_tokens": 21
+      },
+      "total_tokens": 422
+    },
+    "output": [
+      {
+        "type": "function_call",
+        "name": "get_weather",
+        "call_id": "call_ccGDgMj3yFbRc7wDHsLemk4d",
+        "async": true,
+        "arguments": "{\"city\":\"パリ\"}"
+      },
+      {
+        "type": "message",
+        "phase": "commentary",
+        "text": "天気の取得を開始しました。待っている間に、都市旅行に共通して役立つ持ち物を3つ挙げます。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **ファスナー付きの小型バッグ**：貴重品をまとめ、身につけて持ち歩くために。"
+      },
+      {
+        "type": "reasoning",
+        "summary": "(encrypted)"
+      },
+      {
+        "type": "message",
+        "phase": "final_answer",
+        "text": "パリのデモ天気は現在取得中です。結果がまだ届いていないため、気温や天候はお伝えできません。取得される情報は、実際の観測値ではなく**デモデータ**です。"
+      }
+    ]
+  },
+  "second": {
+    "status": "completed",
+    "usage": {
+      "input_tokens": 416,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 49,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 465
+    },
+    "output": [
+      {
+        "type": "message",
+        "phase": "final_answer",
+        "text": "パリのデモ天気は、**晴れ、気温22°C**です。\n\n※これは**デモデータ**であり、現在の実際の天気を示すものではありません。"
+      }
+    ]
+  },
+  "error": null
+}

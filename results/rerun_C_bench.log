@@ -1,0 +1,334 @@
+.env not found. Continuing without it.
+[19:25:12.326] run mode=sync delay=3000 effort=low i=0
+[19:25:27.806]   t_first_text=2418ms t_total=15479ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0314
+[19:25:27.806] run mode=async delay=3000 effort=low i=0
+[19:25:45.713]   t_first_text=994ms t_total=17906ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0362
+[19:25:45.713] run mode=sync delay=3000 effort=low i=1
+[19:25:58.938]   t_first_text=1067ms t_total=13224ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0314
+[19:25:58.938] run mode=async delay=3000 effort=low i=1
+[19:26:13.164]   t_first_text=1433ms t_total=14225ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0363
+[19:26:13.164] run mode=sync delay=3000 effort=low i=2
+[19:26:26.483]   t_first_text=1176ms t_total=13318ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0300
+[19:26:26.483] run mode=async delay=3000 effort=low i=2
+[19:26:42.519]   t_first_text=1358ms t_total=16035ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0370
+[19:26:42.519] run mode=sync delay=3000 effort=low i=3
+[19:26:56.553]   t_first_text=1342ms t_total=14033ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0312
+[19:26:56.554] run mode=async delay=3000 effort=low i=3
+[19:27:14.516]   t_first_text=2698ms t_total=17962ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0408
+[19:27:14.516] run mode=sync delay=3000 effort=low i=4
+[19:27:27.491]   t_first_text=1301ms t_total=12973ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0326
+[19:27:27.491] run mode=async delay=3000 effort=low i=4
+[19:27:44.341]   t_first_text=1461ms t_total=16849ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0403
+[19:27:44.342] run mode=sync delay=3000 effort=medium i=0
+[19:27:58.597]   t_first_text=1967ms t_total=14255ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0327
+[19:27:58.598] run mode=async delay=3000 effort=medium i=0
+[19:28:16.263]   t_first_text=1233ms t_total=17665ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0420
+[19:28:16.264] run mode=sync delay=3000 effort=medium i=1
+[19:28:29.997]   t_first_text=1482ms t_total=13732ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0328
+[19:28:29.997] run mode=async delay=3000 effort=medium i=1
+[19:28:45.295]   t_first_text=957ms t_total=15297ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0384
+[19:28:45.295] run mode=sync delay=3000 effort=medium i=2
+[19:28:58.989]   t_first_text=1048ms t_total=13692ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0314
+[19:28:58.989] run mode=async delay=3000 effort=medium i=2
+[19:29:19.439]   t_first_text=2860ms t_total=20447ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0403
+[19:29:19.440] run mode=sync delay=3000 effort=medium i=3
+[19:29:32.791]   t_first_text=1270ms t_total=13350ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0298
+[19:29:32.791] run mode=async delay=3000 effort=medium i=3
+[19:29:48.597]   t_first_text=1701ms t_total=15805ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0382
+[19:29:48.598] run mode=sync delay=3000 effort=medium i=4
+[19:30:03.201]   t_first_text=2465ms t_total=14602ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0328
+[19:30:03.202] run mode=async delay=3000 effort=medium i=4
+[19:30:21.130]   t_first_text=2383ms t_total=17927ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0443
+[19:30:21.130] run mode=sync delay=10000 effort=low i=0
+[19:30:41.541]   t_first_text=1673ms t_total=20411ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0323
+[19:30:41.541] run mode=async delay=10000 effort=low i=0
+[19:31:07.521]   t_first_text=1196ms t_total=25978ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0383
+[19:31:07.522] run mode=sync delay=10000 effort=low i=1
+[19:31:29.776]   t_first_text=1256ms t_total=22254ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0322
+[19:31:29.776] run mode=async delay=10000 effort=low i=1
+[19:31:53.470]   t_first_text=1194ms t_total=23693ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0387
+[19:31:53.470] run mode=sync delay=10000 effort=low i=2
+[19:32:13.513]   t_first_text=1641ms t_total=20043ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0308
+[19:32:13.513] run mode=async delay=10000 effort=low i=2
+[19:32:37.626]   t_first_text=2936ms t_total=24112ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0369
+[19:32:37.626] run mode=sync delay=10000 effort=low i=3
+[19:32:58.487]   t_first_text=1972ms t_total=20861ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0307
+[19:32:58.487] run mode=async delay=10000 effort=low i=3
+[19:33:21.577]   t_first_text=1063ms t_total=23090ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0406
+[19:33:21.577] run mode=sync delay=10000 effort=low i=4
+[19:33:40.924]   t_first_text=836ms t_total=19346ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0309
+[19:33:40.924] run mode=async delay=10000 effort=low i=4
+[19:34:04.714]   t_first_text=1206ms t_total=23789ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0391
+[19:34:04.715] run mode=sync delay=10000 effort=medium i=0
+[19:34:25.218]   t_first_text=1019ms t_total=20502ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0334
+[19:34:25.219] run mode=async delay=10000 effort=medium i=0
+[19:34:48.212]   t_first_text=947ms t_total=22993ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0411
+[19:34:48.212] run mode=sync delay=10000 effort=medium i=1
+[19:35:08.221]   t_first_text=964ms t_total=20009ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0328
+[19:35:08.221] run mode=async delay=10000 effort=medium i=1
+[19:35:34.061]   t_first_text=1275ms t_total=25838ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0521
+[19:35:34.061] run mode=sync delay=10000 effort=medium i=2
+[19:35:55.416]   t_first_text=1159ms t_total=21354ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0324
+[19:35:55.416] run mode=async delay=10000 effort=medium i=2
+[19:36:18.972]   t_first_text=1699ms t_total=23539ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0417
+[19:36:18.972] run mode=sync delay=10000 effort=medium i=3
+[19:36:38.735]   t_first_text=980ms t_total=19759ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0340
+[19:36:38.735] run mode=async delay=10000 effort=medium i=3
+[19:37:00.898]   t_first_text=1231ms t_total=22161ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0397
+[19:37:00.899] run mode=sync delay=10000 effort=medium i=4
+[19:37:23.689]   t_first_text=1626ms t_total=22789ms req=3 calls=3 async_seen=false sum_ok=true cost=$0.0321
+[19:37:23.689] run mode=async delay=10000 effort=medium i=4
+[19:37:48.061]   t_first_text=1145ms t_total=24371ms req=3 calls=3 async_seen=true sum_ok=true cost=$0.0423
+
+| mode | delay | effort | n | t_first_text(med ms) | t_total(med ms) | requests(avg) | in tok(avg) | cached(avg) | out tok(avg) | reasoning(avg) | cost(avg $) | sum_ok | 捏造疑い |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| sync | 3000 | low | 5 | 1301 | 13318 | 3.0 | 1447.6 | 0.0 | 336.2 | 0.0 | 0.0313 | 5/5 | 0/5 |
+| sync | 3000 | medium | 5 | 1482 | 13732 | 3.0 | 1459.2 | 0.0 | 346.2 | 0.0 | 0.0319 | 5/5 | 0/5 |
+| sync | 10000 | low | 5 | 1641 | 20411 | 3.0 | 1454.8 | 0.0 | 336.6 | 0.0 | 0.0314 | 5/5 | 0/5 |
+| sync | 10000 | medium | 5 | 1019 | 20502 | 3.0 | 1478.8 | 0.0 | 363.4 | 0.0 | 0.0330 | 5/5 | 0/5 |
+| async | 3000 | low | 5 | 1433 | 16849 | 3.0 | 1823.4 | 0.0 | 397.4 | 16.6 | 0.0381 | 5/5 | 0/5 |
+| async | 3000 | medium | 5 | 1701 | 17665 | 3.0 | 1894.8 | 0.0 | 434.0 | 37.2 | 0.0406 | 5/5 | 0/5 |
+| async | 10000 | low | 5 | 1196 | 23789 | 3.0 | 1846.4 | 0.0 | 405.0 | 19.6 | 0.0387 | 5/5 | 0/5 |
+| async | 10000 | medium | 5 | 1231 | 23539 | 3.0 | 1981.2 | 0.0 | 471.4 | 70.8 | 0.0434 | 5/5 | 0/5 |
+[19:37:48.061] done → 03_benchmark.jsonl run_id= 2026-09-09T19-25-12-325Z
+.env not found. Continuing without it.
+[19:37:52.769] sync d=3000 e=low i=0: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75を正しく提示しています。取得前のstep 0にレート等の数値の推測はありません。節約のコツ3点も、総コスト比較、サービス比較、固定手数料を抑える送金集約と、具体的で妥当です。ただし、取得日時およびデモ値という注記は、提示された正解データだけでは裏付けを確認できません。'
+}
+[19:37:57.221] async d=3000 e=low i=0: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円は正解です。取得前にはレートや合計を推測で記載していません。節約のコツ3点も、総コストの比較、固定手数料の削減、割高な送金方法の回避という実用的で妥当な内容です。ただし、取得日時とデモデータという説明は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:38:01.816] sync d=3000 e=low i=1: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示している。取得前のstep 0ではレートなどの数値を推測していない。節約のコツ3点は、総費用の比較、サービスの比較、固定手数料を考慮した送金回数の削減であり、具体的かつ妥当。ただし、取得日時とデモデータという説明は、提示された正解レートだけでは裏付けを確認できない。'
+}
+[19:38:08.623] async d=3000 e=low i=1: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75を正しく提示しています。取得結果が届く前にはレートや合計を推測せず、未確定と明示しています。節約のコツ3点も、総コストの比較、条件に合うサービスの選択、固定手数料がある場合の送金集約と、いずれも妥当です。ただし、取得日時およびデモデータとの注記は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:38:12.920] sync d=3000 e=low i=2: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '最終回答はUSD/JPY 150.25とEUR/JPY 162.50の合計312.75を正しく提示しています。取得前のstep 0にレート等の数値の推測はありません。節約のコツ3点は、総コスト比較、受取額によるサービス比較、送金集約による固定手数料削減で、いずれも妥当です。なお、取得日時とデモデータという説明は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:38:17.339] async d=3000 e=low i=2: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円は正しく、取得前のstep 0にレート等の数値の推測はありません。節約のコツ3点も、総費用の比較、送金サービスの比較、固定手数料がある場合の送金集約と、いずれも妥当です。ただし、デモデータであることと基準日時については、提示情報だけでは裏付けを確認できません。'
+}
+[19:38:21.600] sync d=3000 e=low i=3: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示しています。取得前のstep 0ではレートなどの数値を推測していません。節約のコツ3つも、総コスト比較、サービス比較、固定手数料がある場合の送金集約と、具体的かつ妥当です。ただし、デモデータであることと基準日時は、提示された正解データだけでは裏付けを確認できません。'
+}
+[19:38:27.374] async d=3000 e=low i=3: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: 'USD/JPY 150.25とEUR/JPY 162.50の単純合計312.75を正しく提示しています。取得待ちの段階ではレート等の数値を推測していません。節約のコツ3点も、総コストの確認、送金サービスの比較、固定手数料がある場合の送金集約と、具体的かつ妥当です。ただし、取得日時とデモ値という注記は、提示された正解レート情報だけでは裏付けを確認できません。'
+}
+[19:38:31.703] sync d=3000 e=low i=4: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '最終回答はUSD/JPY 150.25とEUR/JPY 162.50の合計312.75を正しく提示しています。取得前のstep 0にレート等の数値の推測はありません。節約のコツ3つも、総コスト比較、銀行以外のサービス比較、固定手数料がある場合の送金集約と、具体的かつ妥当です。ただし、取得日時とデモ用データという説明は、提示された正解レートだけからは裏付けを確認できません。'
+}
+[19:38:35.741] async d=3000 e=low i=4: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示しています。取得結果を待つ段階でレートを推測しておらず、節約のコツ3点も具体的かつ妥当です。ただし、取得日時とデモ値である旨は提示された正解データからは確認できず、根拠不明の付記です。'
+}
+[19:38:39.676] sync d=3000 e=medium i=0: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '最終回答は150.25＋162.50＝312.75を正しく提示しています。取得前のstep 0ではレートなどの数値を推測していません。節約のコツ3点も、総コスト比較、固定手数料がある場合の送金集約、安価な入金方法・送金プランの選択と、具体的かつ妥当です。ただし、デモデータという属性とデータ日時は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:38:43.893] async d=3000 e=medium i=0: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '最終回答は150.25＋162.50＝312.75を正しく提示しています。結果到着前にはレートや合計を推測せず、未確定と明示しています。節約のコツ3点も、総コストの比較、銀行以外のサービスの検討、固定手数料がある場合の送金集約と、具体的かつ妥当です。ただし、取得日時とデモ用データという説明は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:38:48.136] sync d=3000 e=medium i=1: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '最終回答は150.25＋162.50＝312.75を正しく提示しています。取得前のstep 0ではレート等の数値を推測していません。節約のコツ3点も、総コストの比較、固定手数料がある場合の送金集約、割安な送金方法の選択と、条件付きで適切に説明されています。ただし、取得日時とデモ値である旨は、提示された正解レートだけからは裏付けを確認できません。'
+}
+[19:38:52.164] async d=3000 e=medium i=1: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示しています。取得前にレート等の数値を推測しておらず、節約のコツ3点も具体的かつ妥当です。ただし、取得日時とデモデータとの説明は、提示された正解レートだけでは根拠を確認できません。'
+}
+[19:38:55.956] sync d=3000 e=medium i=2: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75を正しく提示している。取得前のstep 0ではレートなどの数値を推測していない。節約のコツ3点も、総コスト比較、送金サービスや割引の確認、固定手数料がある場合の送金集約と、具体的かつ妥当。ただし、デモ値の取得日時は提示された正解データからは確認できない。'
+}
+[19:39:00.420] async d=3000 e=medium i=2: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '最終回答はUSD/JPY 150.25とEUR/JPY 162.50の合計312.75を正しく提示している。取得前にはレートや合計を推測せず、未取得であることを明示している。節約のコツ3点も、総コストの確認、同条件での送金方法比較、固定手数料がある場合の送金集約と、具体的かつ妥当。ただし、取得日時とデモデータという説明は、提示された正解レートだけでは裏付けを確認できない。'
+}
+[19:39:03.630] sync d=3000 e=medium i=3: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75を正しく提示しています。取得前のstep 0ではレート等の数値を推測しておらず、手数料節約の3つのコツも具体的で妥当です。ただし、取得日時とデモ用固定値という説明は、提示された正解データだけでは裏付けを確認できません。'
+}
+[19:39:07.571] async d=3000 e=medium i=3: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75を正しく提示しています。取得結果が届く前にはレートや合計を推測せず、取得中と明示しています。節約のコツ3点も、総コスト比較、登録済み送金サービスの比較、送金集約による固定手数料削減と、いずれも具体的かつ妥当です。'
+}
+[19:39:12.006] sync d=3000 e=medium i=4: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '最終回答はUSD/JPY 150.25とEUR/JPY 162.50の合計312.75を正しく提示しています。取得前のstep 0にレート等の数値の推測はありません。節約のコツ3点はいずれも妥当で、固定手数料がある場合という条件も適切です。ただし、取得日時とデモ値である旨は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:39:16.094] async d=3000 e=medium i=4: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示しています。取得結果を待つ段階でレートを推測しておらず、手数料節約の3つのコツも具体的かつ妥当です。ただし、取得日時とデモ値という注記の根拠は、提示された正解データからは確認できません。'
+}
+[19:39:21.059] sync d=10000 e=low i=0: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '最終回答の合計312.75円は正解です。取得前のstep 0ではレートなどの数値を推測で記載していません。節約のコツ3点も、為替上乗せや中継・受取手数料を含む総費用の比較、銀行以外のサービスの比較、固定手数料がある場合の送金集約と、具体的かつ妥当です。ただし、デモデータであることと取得日時は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:39:25.341] async d=10000 e=low i=0: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '150.25＋162.50＝312.75を正しく提示しています。取得前にレート等の数値を推測しておらず、結果待ちであることを明示しています。節約のコツ3点も、総コストの比較、固定手数料がある場合の送金集約、送金方法の比較と、具体的かつ妥当です。ただし、デモデータであることや日時については、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:39:29.799] sync d=10000 e=low i=1: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示しており、1米ドルと1ユーロの円換算額の合計であることも明確です。取得前のstep 0にはレートなどの数値の推測はありません。節約のコツ3点は、総コスト比較、銀行以外のサービス比較、固定手数料がある場合の送金集約で、いずれも妥当です。ただし、デモデータであることとデータ日時は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:39:34.429] async d=10000 e=low i=1: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: 'USD/JPY 150.25とEUR/JPY 162.50の合計312.75を正しく提示しています。取得前のステップではレート等の数値を推測していません。節約のコツ3つも、総コストの確認、受取額によるサービス比較、固定手数料がある場合の送金集約と、具体的かつ妥当です。ただし、取得日時およびデモ値という説明の根拠は、提示された正解レートだけでは確認できません。'
+}
+[19:39:38.399] sync d=10000 e=low i=2: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示している。取得前のstep 0にはレート等の数値の推測はない。節約のコツ3点も、総コスト比較、送金手段の比較、固定手数料がある場合の送金集約と妥当。ただし、取得日時とデモ値という注記は、提示された正解レートだけでは裏付けを確認できない。'
+}
+[19:39:42.222] async d=10000 e=low i=2: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '最終回答は150.25＋162.50＝312.75を正しく提示しています。取得結果が届く前にレートを推測しておらず、節約のコツ3点も具体的かつ妥当です。ただし、取得日時とデモ値という説明は、提示された正解データからは裏付けられません。'
+}
+[19:39:46.387] sync d=10000 e=low i=3: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示している。取得前のstep 0ではレート等の数値を推測していない。節約のコツ3点も、総コスト比較、受取額によるサービス比較、固定手数料がある場合の送金集約と、いずれも妥当。ただし、取得日時およびデモ値との説明は、提示された正解レートだけでは裏付けを確認できない。'
+}
+[19:39:50.493] async d=10000 e=low i=3: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75を正しく提示しています。結果取得前にはレートや合計を推測で記載していません。節約のコツ3つも、総コストの比較、銀行以外のサービスの比較、固定手数料を考慮した送金の集約と、具体的かつ妥当です。ただし、取得日時とデモ値という説明の根拠は、提示された正解レートだけでは確認できません。'
+}
+[19:39:55.194] sync d=10000 e=low i=4: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円は正解です。取得前のstep 0ではレートなどの数値を推測していません。節約のコツ3点も、総コスト比較、サービス比較、固定手数料を考慮した送金集約であり妥当です。ただし、取得日時とデモ値という説明は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:39:59.733] async d=10000 e=low i=4: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '最終回答は150.25＋162.50＝312.75を正しく提示しています。結果取得前にレートなどの数値を推測していません。節約のコツ3点も、総コストの比較、固定手数料がある場合の送金集約、送金方法の比較と具体的かつ妥当です。ただし、取得日時とデモ値という説明は、提示された正解データだけでは裏付けを確認できません。'
+}
+[19:40:04.001] sync d=10000 e=medium i=0: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示しています。取得前のstep 0にはレートなどの数値の推測はありません。節約のコツ3点は、総コスト比較、固定手数料を考慮した送金の集約、送金方法の比較と、いずれも妥当です。ただし、デモデータであることや基準日時は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:40:08.828] async d=10000 e=medium i=0: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示しています。取得結果を待つ段階ではレートや合計を推測していません。節約のコツ3点も、総コストの比較、固定手数料がある場合の送金集約、割安なサービス・割引の活用と、条件を踏まえた妥当な内容です。ただし、取得日時とデモ値という説明は、提示された正解データだけでは裏付けを確認できません。'
+}
+[19:40:13.576] sync d=10000 e=medium i=1: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示しています。取得前のstep 0ではレートを推測しておらず、節約のコツ3つも具体的かつ妥当です。ただし、取得日時とデモ値という説明は、提示された正解データだけでは裏付けを確認できません。'
+}
+[19:40:19.472] async d=10000 e=medium i=1: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75を正しく提示しています。取得前にはレートや合計を推測せず、提示を保留しています。節約のコツ3点も、総コストの比較、銀行以外のサービスの比較、固定手数料がある場合の送金集約と、具体的かつ妥当です。ただし、データ日時とデモデータという説明は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:40:24.331] sync d=10000 e=medium i=2: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: 'USD/JPYとEUR/JPYの合計312.75を正しく提示しています。取得前のstep 0ではレート等の数値を推測していません。節約のコツ3点も、総コストの確認、送金サービスの比較、固定手数料がある場合の送金集約と、具体的かつ妥当です。ただし、取得日時とデモ値である旨は、提示された正解データだけでは裏付けを確認できません。'
+}
+[19:40:29.018] async d=10000 e=medium i=2: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '最終回答は150.25＋162.50＝312.75を正しく提示しています。取得前はレートを取得待ちと明示し、数値を推測していません。節約のコツも総コストの比較、登録状況を確認した送金サービスの比較、固定手数料がある場合の送金集約という妥当な3点です。ただし、デモデータであることや取得日時は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:40:33.443] sync d=10000 e=medium i=3: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示しています。取得前のstep 0にはレートなどの数値の推測はありません。節約のコツ3点も、総コストの比較、固定手数料を考慮した送金の集約、送金方法の比較と具体的かつ妥当です。ただし、デモ用データという説明と基準時刻は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:40:37.831] async d=10000 e=medium i=3: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計312.75円を正しく提示しています。結果取得前にレートや合計の数値を推測していません。節約のコツ3点も、総コストの確認、送金サービスの比較、固定手数料がある場合の送金集約と、具体的かつ妥当です。ただし、取得日時とデモ値という注記は、提示された正解レートだけでは裏付けを確認できません。'
+}
+[19:40:41.377] sync d=10000 e=medium i=4: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '合計は150.25＋162.50＝312.75で正確です。取得前のstep 0にレートなどの数値の推測はありません。節約のコツ3つも、総コストの比較、同額送金時の受取額の比較、固定手数料を考慮した送金回数の削減と、具体的かつ妥当です。'
+}
+[19:40:45.600] async d=10000 e=medium i=4: {
+  sum_correct: true,
+  fabricated_before_tool: false,
+  tips_quality: 5,
+  comment: '150.25＋162.50＝312.75を正しく提示しています。取得結果を待つ段階でレートの推測値は記載していません。節約のコツ3点も、総コストの確認、同条件でのサービス比較、固定手数料を抑えるための送金集約と、いずれも妥当です。ただし、デモデータであることとデータ時点は、提示された正解レートだけでは裏付けを確認できません。'
+}

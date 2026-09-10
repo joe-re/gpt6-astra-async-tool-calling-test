@@ -1,0 +1,63 @@
+{
+  "first": {
+    "status": "completed",
+    "usage": {
+      "input_tokens": 199,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 209,
+      "output_tokens_details": {
+        "reasoning_tokens": 19
+      },
+      "total_tokens": 408
+    },
+    "output": [
+      {
+        "type": "function_call",
+        "name": "get_weather",
+        "call_id": "call_wmGHqZzVdigOR9frq1r6c0g1",
+        "async": true,
+        "arguments": "{\"city\":\"パリ\"}"
+      },
+      {
+        "type": "message",
+        "phase": "commentary",
+        "text": "都市旅行に共通して役立つ持ち物は、次の3つです。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **身分証明書**：ホテルのチェックインや本人確認に。海外旅行ならパスポートを。\n\nパリのデモ天気は取得中です。結果が届き次第お伝えします。"
+      },
+      {
+        "type": "reasoning",
+        "summary": "(encrypted)"
+      },
+      {
+        "type": "message",
+        "phase": "final_answer",
+        "text": "パリのデモ天気は取得を開始していますが、結果はまだ届いていません。天気の値は、取得結果を確認してからお伝えします。"
+      }
+    ]
+  },
+  "second": {
+    "status": "completed",
+    "usage": {
+      "input_tokens": 402,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 44,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 446
+    },
+    "output": [
+      {
+        "type": "message",
+        "phase": "final_answer",
+        "text": "パリの**デモ天気**は、**晴れ、気温22°C**です。\n\n※デモデータであり、現在の実際の天気ではありません。"
+      }
+    ]
+  },
+  "error": null
+}

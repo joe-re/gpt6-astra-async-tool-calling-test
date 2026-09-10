@@ -1,0 +1,147 @@
+{
+  "id": "resp_01ad7679c78270ff006aa1b293f5f087d086e1bff098d8488a",
+  "object": "response",
+  "created_at": 1788981907,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788981913,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "天気の取得を開始してください。天気とは関係のない持ち物の質問には、取得結果を待たずに先に答えてください。天気はツール結果が届いてから実際の値を使い、推測で書かないでください。天気がデモデータであることを明示してください。",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6-astra",
+  "moderation": null,
+  "output": [
+    {
+      "id": "fc_01ad7679c78270ff006aa1b2957da487d09d02e998329bc0be",
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"city\":\"Paris\"}",
+      "async": true,
+      "call_id": "call_47GuoPcNawBIQdhpMc27O847",
+      "name": "get_weather"
+    },
+    {
+      "id": "msg_01ad7679c78270ff006aa1b296729487d0a4e44a4f1968fec2",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "天気の取得を開始しました。待っている間に、都市旅行に共通して役立つ持ち物を3つ挙げます。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **小さめのショルダーバッグ**：貴重品を身につけて持ち運ぶために。"
+        }
+      ],
+      "phase": "commentary",
+      "role": "assistant"
+    },
+    {
+      "id": "rs_01ad7679c78270ff006aa1b298462c87d0897d97f966fedf32",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqobKa4D7a828jxQgJoID02S7ybnEVDliS7rTzGyo7jxfokWPUtg4SHGf5GUVCTeryozSYJF-5PWp9I6AyY3MArA7Fbaf2KT-oZMSKIx0QXw7Yx4dA9zdSpxPahy9Br4PkTVfopZfKl57SaHWJBqjBc3WdnF64FjglaJpM_z7UoefEaQ94eREbShZLoeLT5krOHT41VF2izJ6H9tFQo3pNG8lCGny8ahJ4IC3KUAKwoY-AurjR1ibloWkKotv9d53zYhHwT31QTgoHARrIr6Gm8JyB0Bc6QtWd4uAYIYME_HEcE_P27SryoNgIPvRiB6ZmPfiOrBMLJd9eZmZLLa5cQfdOvHfXY6u9eWj_am1pBq_HQicsq7ndQlAC7gbql2aNc3DGGqGujdjS92pw8fOBD20x5bR8wN85G8uyNrvK-0VL_fPFHZh6XGfb4NjN-bFnqgI-FQOiFw44Iu_PWRU-H0muGjH2v0d5wFrGXUjmSv4Mremi2Jt8CQZ4jKcOtYfE6fO1Y8GjnG9Finxt2US7HeCVvMLZEeFdGELZN06yQ-iH5fFFw8QLqkj8GZEhRTo1zDEGCqEwv1aCEC6MqGaA6qzvRz1KcnknbqkvUMDzIu_tHo1jM_1uKvi3icn20VBMyc0CNdVSewYp4ujrwmbTFiky2u7EMOE3OnC_spOO69Sxll0NAE7TJ1SDcrSP_lPOBpsXRZn8wAXLTM440DK_s_v-fF990MhreOfucho6bC_FupvLmnFhVCTFZODXebEjdmnHAKAihrGsenGwo_nBI8YiC26-JsZsscqNKWBoaxCU47t5lQq7f3c8-4pShQES4pyhchYoTAfgiQKyGzJJnGVwNXkqFN3moHoMo-OHA-H_T24G5FisHWQN_LYRgeY_rBv-Pj8jSuazryYo8ZQjM4MBB1-4F3v3EnA2QUntj3hpey9LLrTNZBF31_7hu0lNK1qJrdlRogNdOOxvkz2mwmOr8jtbUnd9baDGHidVR4unqn8p4BnF1U4jKtzoziCtDSWzl0q_zRSjGjSd_10xBto47Hl3OQvA2hklMWNFSvyGfAjLb73_4a2Id7tT8zeaKfbYlHeQefiGTzhi-_bS6iZ94xntBlwW5aKFeHH9pEbFgbXQZqKZcWwXRAmdQyH0Nt1tlsjncAljIU9EtW7rn9woA_WEy1tH8-pUqQMmR-JQ671eVexEEjyDEfn9HnqQFCxitqAhNwPoIWv6eNimx7mFBOj0xXHy9Kc3-pZ10T-0y_lICg--eU5-ftaTLAZDK69qwSq8EG6wfNogq662ZLbUw3RfQaiMXJdz-dUKZgwQHRLlH6LtaHo3sLSUHZPbWwWF",
+      "summary": []
+    },
+    {
+      "id": "msg_01ad7679c78270ff006aa1b298f49887d099489d180588c341",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "パリのデモ天気は取得結果を待っています。まだ届いていないため、気温や天候は現時点ではお伝えできません。"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "function",
+      "async": true,
+      "description": "Read the demo weather snapshot for a city.",
+      "name": "get_weather",
+      "output_schema": null,
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "city"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 198,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 210,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 408
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "天気の取得を開始しました。待っている間に、都市旅行に共通して役立つ持ち物を3つ挙げます。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **小さめのショルダーバッグ**：貴重品を身につけて持ち運ぶために。パリのデモ天気は取得結果を待っています。まだ届いていないため、気温や天候は現時点ではお伝えできません。"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "output": [
+    {
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "海外送金で手数料を抑えるコツは、次の3つです。\n\n1. 送金手数料だけでなく、為替レートの上乗せや中継・受取手数料も含めた総コストを比較する。\n2. 銀行とオンライン送金サービスを比較し、送金先や金額に合うものを選ぶ。\n3. 固定手数料がかかる場合は、無理のない範囲で送金をまとめて回数を減らす。\n\n続いて、USD/JPY と EUR/JPY のレートを取得して合計します。\n"
+        }
+      ],
+      "phase": "commentary",
+      "role": "assistant"
+    },
+    {
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"pair\":\"USD/JPY\"}",
+      "call_id": "call_niOaRxvKXCLkn6gtTdeMkJDL",
+      "name": "fetch_exchange_rate"
+    },
+    {
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"pair\":\"EUR/JPY\"}",
+      "call_id": "call_WsdtSXKyX1nJPjy5alICs23o",
+      "name": "fetch_exchange_rate"
+    }
+  ],
+  "usage": {
+    "input_tokens": 262,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 206,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  }
+}

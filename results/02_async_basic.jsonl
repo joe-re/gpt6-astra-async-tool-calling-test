@@ -1,0 +1,7 @@
+{"scenario":"async","lang":"ja","delay_ms":3000,"first_status":"completed","call_async":true,"first_has_message":true,"t_first_ms":7420,"t_total_ms":13156,"usage":{"requests":2,"input_tokens":601,"cached_tokens":0,"cache_write_tokens":0,"output_tokens":258,"reasoning_tokens":29},"cost_usd":0.01891}
+{"scenario":"sync","lang":"ja","delay_ms":3000,"first_status":"completed","call_async":null,"first_has_message":false,"t_first_ms":2263,"t_total_ms":9811,"usage":{"requests":2,"input_tokens":371,"cached_tokens":0,"cache_write_tokens":0,"output_tokens":183,"reasoning_tokens":18},"cost_usd":0.01286}
+{"scenario":"async_nostrict","lang":"ja","delay_ms":3000,"first_status":"completed","call_async":true,"first_has_message":true,"t_first_ms":6279,"t_total_ms":12057,"usage":{"requests":2,"input_tokens":616,"cached_tokens":0,"cache_write_tokens":0,"output_tokens":268,"reasoning_tokens":18},"cost_usd":0.01956}
+{"scenario":"D_no_output_then_user","status":"completed","output":[{"type":"message","text":"まだ取得結果が届いていないため、パリの天気は確認できていません。届き次第、**デモデータ**として気温や天候をお伝えします。"}]}
+{"scenario":"E_bogus_call_id","error":{"status":400,"code":null,"param":"input","message":"400 No tool call found for function call output with call_id call_does_not_exist."}}
+{"scenario":"E2_duplicate_output","status":"completed","output":[{"type":"message","text":"パリの**デモ天気データ**では、気温は **99°C** です。これは実際の天気ではありません。天候（晴れ・雨など）の情報は含まれていません。"}]}
+{"scenario":"F_hosted_async","error":{"status":400,"code":"unknown_parameter","param":"tools[0].async","message":"400 Unknown parameter: 'tools[0].async'."}}

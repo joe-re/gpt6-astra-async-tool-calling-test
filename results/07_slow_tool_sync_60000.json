@@ -1,0 +1,52 @@
+{
+  "first": {
+    "status": "completed",
+    "usage": {
+      "input_tokens": 160,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 179
+    },
+    "output": [
+      {
+        "type": "function_call",
+        "name": "get_weather",
+        "call_id": "call_3JmVxbYseVtso19qgm4B76nC",
+        "arguments": "{\"city\":\"パリ\"}"
+      }
+    ]
+  },
+  "second": {
+    "status": "completed",
+    "usage": {
+      "input_tokens": 210,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 161,
+      "output_tokens_details": {
+        "reasoning_tokens": 17
+      },
+      "total_tokens": 371
+    },
+    "output": [
+      {
+        "type": "reasoning",
+        "summary": "(encrypted)"
+      },
+      {
+        "type": "message",
+        "phase": "final_answer",
+        "text": "都市旅行に共通して役立つ持ち物は、次の3つです。\n\n1. **歩きやすい靴**：街歩きや公共交通機関での移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電用に。\n3. **小さなショルダーバッグ**：財布やスマートフォンをまとめて携帯するために。\n\nパリの天気は、**デモデータでは晴れ、22℃**です。実際の現在の天気を示すものではありません。"
+      }
+    ]
+  },
+  "error": null
+}

@@ -1,0 +1,413 @@
+.env not found. Continuing without it.
+[19:25:06.924] === async (async=true, strict=true) ===
+[19:25:14.344] first response: status=completed in 7420ms
+[
+  {
+    "type": "function_call",
+    "name": "get_weather",
+    "call_id": "call_47GuoPcNawBIQdhpMc27O847",
+    "async": true,
+    "arguments": "{\"city\":\"Paris\"}"
+  },
+  {
+    "type": "message",
+    "text": "天気の取得を開始しました。待っている間に、都市旅行に共通して役立つ持ち物を3つ挙げます。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **小さめのショルダーバッグ**：貴重品を身につけて持ち運ぶために。"
+  },
+  {
+    "type": "reasoning",
+    "summary": ""
+  },
+  {
+    "type": "message",
+    "text": "パリのデモ天気は取得結果を待っています。まだ届いていないため、気温や天候は現時点ではお伝えできません。"
+  }
+]
+[19:25:14.345] call.async=true, 最初の response に message あり=true
+[19:25:20.080] second response: status=completed in 2733ms, total 13156ms
+[
+  {
+    "type": "message",
+    "text": "パリの**デモ天気**は、**晴れ、気温22℃**です。\n\n※デモデータであり、現在の実際の天気を示すものではありません。"
+  }
+]
+[19:25:20.081] === sync (async=false, strict=true) ===
+[19:25:22.344] first response: status=completed in 2263ms
+[
+  {
+    "type": "function_call",
+    "name": "get_weather",
+    "call_id": "call_7sTLRNGhkZDbwlQ6M4gqstwn",
+    "async": null,
+    "arguments": "{\"city\":\"パリ\"}"
+  }
+]
+[19:25:22.345] call.async=null, 最初の response に message あり=false
+[19:25:29.891] second response: status=completed in 4546ms, total 9810ms
+[
+  {
+    "type": "reasoning",
+    "summary": ""
+  },
+  {
+    "type": "message",
+    "text": "都市旅行に共通して役立つ持ち物は、次の3つです。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **小さめのバッグ**：貴重品や必要な物をまとめて持ち歩くために。\n\nパリの**デモ天気**は、**晴れ、22℃**です。実際の現在の天気ではなく、デモ用のスナップショットです。"
+  }
+]
+[19:25:29.892] === async_nostrict (async=true, strict=false) ===
+[19:25:36.171] first response: status=completed in 6279ms
+[
+  {
+    "type": "function_call",
+    "name": "get_weather",
+    "call_id": "call_vbODtMFVubKqC3e07B7IHOmk",
+    "async": true,
+    "arguments": "{\"city\":\"パリ\"}"
+  },
+  {
+    "type": "message",
+    "text": "都市旅行に共通して役立つ持ち物は、次の3つです。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **ファスナー付きの小さなバッグ**：貴重品をまとめ、体の前で持てるものが便利です。\n\nパリのデモ天気は取得中です。結果が届き次第、実際の取得値をお伝えします。"
+  },
+  {
+    "type": "reasoning",
+    "summary": ""
+  },
+  {
+    "type": "message",
+    "text": "パリのデモ天気は、現在ツールの取得結果を待っています。天気や気温は、結果が届くまで推測せずにお待ちします。"
+  }
+]
+[19:25:36.172] call.async=true, 最初の response に message あり=true
+[19:25:41.948] second response: status=completed in 2775ms, total 12056ms
+[
+  {
+    "type": "message",
+    "text": "パリの**デモ天気**は、**晴れ、気温22℃**です。\n\n※これはデモデータであり、リアルタイムの天気ではありません。"
+  }
+]
+[19:25:41.950] === D: function_call_output を返さずに user メッセージだけ送る ===
+[
+  {
+    "type": "message",
+    "text": "まだ取得結果が届いていないため、パリの天気は確認できていません。届き次第、**デモデータ**として気温や天候をお伝えします。"
+  }
+]
+[19:25:44.483] === E: 存在しない call_id で function_call_output を返す ===
+[19:25:44.846] E error: {
+  status: 400,
+  code: null,
+  param: 'input',
+  message: '400 No tool call found for function call output with call_id call_does_not_exist.'
+}
+[19:25:44.847] === E2: 正しい call_id で 2 回目の function_call_output(重複)===
+[19:25:48.308] === F: hosted tool (web_search) に async: true ===
+[19:25:48.493] F error: {
+  status: 400,
+  code: 'unknown_parameter',
+  param: 'tools[0].async',
+  message: "400 Unknown parameter: 'tools[0].async'."
+}
+[19:25:48.494] done → 02_async_basic.jsonl
+.env not found. Continuing without it.
+[19:25:51.613] first: status=completed in 2727ms
+[
+  {
+    "type": "function_call",
+    "name": "fetch_rate",
+    "call_id": "call_MtCcZfMkgv93IoiGGdgZ6czi",
+    "arguments": "{\"pair\":\"USD/JPY\"}"
+  },
+  {
+    "type": "function_call",
+    "name": "fetch_news",
+    "call_id": "call_uZlrkh2NfmLSu4s1UeyCznAC",
+    "arguments": "{\"pair\":\"USD/JPY\"}"
+  }
+]
+output_text: ""
+[19:26:02.601] second: status=completed in 7985ms, total 13714ms
+[
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "## USD/JPY のレートと関連ニュース\n\n取得先が **デモデータ** を返したため、実際の最新レート・ニュースは確認できませんでした。\n\n- **レート：** 1米ドル＝150.25円（デモ値。実際の取引には使わないでください）\n- **関連ニュース：** 仮の見出しのみだったため、紹介できる実ニュースはありません。\n\n最新情報は金融機関や金融情報サイトで確認してください。送金時には、市場レートではなく**送金業者が実際に適用するレート**を見ることが重要です。\n\n## 海外送金で手数料を抑えるコツ 3つ\n\n1. **送金手数料だけでなく「受取額」で比較する**  \n   「手数料無料」でも為替レートに上乗せがある場合があります。同じ支払総額で、為替コスト・中継銀行手数料・受取手数料を差し引いた最終受取額を比べましょう。\n\n2. **送金先・通貨に合うサービスと入金方法を選ぶ**  \n   銀行と、送金先に対応した登録済みの海外送金サービスを比較しましょう。カード払いより銀行振込での入金が安い場合もあります。初回割引だけでなく通常料金も確認してください。\n\n3. **固定手数料がかかるなら、送金をまとめる**  \n   少額を何度も送るより、回数を減らすと固定費を抑えられます。ただし、まとめるまでの為替変動や送金上限、必要な着金日に注意しましょう。"
+  }
+]
+.env not found. Continuing without it.
+[19:26:07.826] status=completed items=message → function_call → function_call
+{
+  "status": "completed",
+  "output": [
+    {
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "海外送金で手数料を抑えるコツは、次の3つです。\n\n1. 送金手数料だけでなく、為替レートの上乗せや中継・受取手数料も含めた総コストを比較する。\n2. 銀行とオンライン送金サービスを比較し、送金先や金額に合うものを選ぶ。\n3. 固定手数料がかかる場合は、無理のない範囲で送金をまとめて回数を減らす。\n\n続いて、USD/JPY と EUR/JPY のレートを取得して合計します。\n"
+        }
+      ],
+      "phase": "commentary",
+      "role": "assistant"
+    },
+    {
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"pair\":\"USD/JPY\"}",
+      "call_id": "call_niOaRxvKXCLkn6gtTdeMkJDL",
+      "name": "fetch_exchange_rate"
+    },
+    {
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"pair\":\"EUR/JPY\"}",
+      "call_id": "call_WsdtSXKyX1nJPjy5alICs23o",
+      "name": "fetch_exchange_rate"
+    }
+  ],
+  "usage": {
+    "input_tokens": 262,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 206,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  }
+}
+.env not found. Continuing without it.
+[19:26:08.216] === mode=sync delay=0ms ===
+[
+  {
+    "type": "function_call",
+    "name": "get_weather",
+    "call_id": "call_Zt4263WdPy2UPagK6Y8qoyLG",
+    "arguments": "{\"city\":\"Paris\"}"
+  }
+]
+[19:26:11.215] tool sleeping 0ms ...
+[
+  {
+    "type": "reasoning",
+    "summary": "(encrypted)"
+  },
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "都市旅行に共通して必要な持ち物は、次の3つです。\n\n1. **身分証明書**：海外旅行ではパスポート。\n2. **財布**：クレジットカードと少額の現金。\n3. **スマートフォン**：地図や予約情報の確認に。\n\nパリの**デモ天気**は、**晴れ、気温22℃**です。実際の最新の天気ではなく、デモデータです。"
+  }
+]
+[19:26:15.061] {"mode":"sync","delay_ms":0,"first_status":"completed","first_items":["function_call"],"first_text_chars":0,"t_first_ms":2997,"t_second_ms":3845,"t_total_ms":6844,"second_status":"completed","second_items":["reasoning","message(final_answer)"],"continuation_ok":true,"error":null,"cost_usd":0.01129}
+[19:26:15.062] === mode=async delay=0ms ===
+[
+  {
+    "type": "function_call",
+    "name": "get_weather",
+    "call_id": "call_wmGHqZzVdigOR9frq1r6c0g1",
+    "async": true,
+    "arguments": "{\"city\":\"パリ\"}"
+  },
+  {
+    "type": "message",
+    "phase": "commentary",
+    "text": "都市旅行に共通して役立つ持ち物は、次の3つです。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **身分証明書**：ホテルのチェックインや本人確認に。海外旅行ならパスポートを。\n\nパリのデモ天気は取得中です。結果が届き次第お伝えします。"
+  },
+  {
+    "type": "reasoning",
+    "summary": "(encrypted)"
+  },
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "パリのデモ天気は取得を開始していますが、結果はまだ届いていません。天気の値は、取得結果を確認してからお伝えします。"
+  }
+]
+[19:26:23.957] tool sleeping 0ms ...
+[
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "パリの**デモ天気**は、**晴れ、気温22°C**です。\n\n※デモデータであり、現在の実際の天気ではありません。"
+  }
+]
+[19:26:30.622] {"mode":"async","delay_ms":0,"first_status":"completed","first_items":["function_call","message(commentary)","reasoning","message(final_answer)"],"first_text_chars":224,"t_first_ms":8895,"t_second_ms":6663,"t_total_ms":15560,"second_status":"completed","second_items":["message(final_answer)"],"continuation_ok":true,"error":null,"cost_usd":0.01866}
+[19:26:30.624] === mode=sync delay=10000ms ===
+[
+  {
+    "type": "function_call",
+    "name": "get_weather",
+    "call_id": "call_UFVOKtXC6KJlXkrLdmogxFpp",
+    "arguments": "{\"city\":\"Paris\"}"
+  }
+]
+[19:26:32.373] tool sleeping 10000ms ...
+[
+  {
+    "type": "reasoning",
+    "summary": "(encrypted)"
+  },
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "都市旅行に共通して役立つ持ち物は、次の3つです。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **貴重品用の小さなバッグ**：財布や身分証を安全に携帯するために。\n\nパリの天気は、**デモデータでは晴れ、気温22℃**です。実際の現在の天気を示すものではありません。"
+  }
+]
+[19:26:48.347] {"mode":"sync","delay_ms":10000,"first_status":"completed","first_items":["function_call"],"first_text_chars":0,"t_first_ms":1749,"t_second_ms":5973,"t_total_ms":17723,"second_status":"completed","second_items":["reasoning","message(final_answer)"],"continuation_ok":true,"error":null,"cost_usd":0.01279}
+[19:26:48.348] === mode=async delay=10000ms ===
+[
+  {
+    "type": "function_call",
+    "name": "get_weather",
+    "call_id": "call_ccGDgMj3yFbRc7wDHsLemk4d",
+    "async": true,
+    "arguments": "{\"city\":\"パリ\"}"
+  },
+  {
+    "type": "message",
+    "phase": "commentary",
+    "text": "天気の取得を開始しました。待っている間に、都市旅行に共通して役立つ持ち物を3つ挙げます。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **ファスナー付きの小型バッグ**：貴重品をまとめ、身につけて持ち歩くために。"
+  },
+  {
+    "type": "reasoning",
+    "summary": "(encrypted)"
+  },
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "パリのデモ天気は現在取得中です。結果がまだ届いていないため、気温や天候はお伝えできません。取得される情報は、実際の観測値ではなく**デモデータ**です。"
+  }
+]
+[19:26:56.002] tool sleeping 10000ms ...
+[
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "パリのデモ天気は、**晴れ、気温22°C**です。\n\n※これは**デモデータ**であり、現在の実際の天気を示すものではありません。"
+  }
+]
+[19:27:08.778] {"mode":"async","delay_ms":10000,"first_status":"completed","first_items":["function_call","message(commentary)","reasoning","message(final_answer)"],"first_text_chars":232,"t_first_ms":7654,"t_second_ms":2775,"t_total_ms":20430,"second_status":"completed","second_items":["message(final_answer)"],"continuation_ok":true,"error":null,"cost_usd":0.01975}
+[19:27:08.780] === mode=sync delay=60000ms ===
+[
+  {
+    "type": "function_call",
+    "name": "get_weather",
+    "call_id": "call_3JmVxbYseVtso19qgm4B76nC",
+    "arguments": "{\"city\":\"パリ\"}"
+  }
+]
+[19:27:10.838] tool sleeping 60000ms ...
+[
+  {
+    "type": "reasoning",
+    "summary": "(encrypted)"
+  },
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "都市旅行に共通して役立つ持ち物は、次の3つです。\n\n1. **歩きやすい靴**：街歩きや公共交通機関での移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電用に。\n3. **小さなショルダーバッグ**：財布やスマートフォンをまとめて携帯するために。\n\nパリの天気は、**デモデータでは晴れ、22℃**です。実際の現在の天気を示すものではありません。"
+  }
+]
+[19:28:15.277] {"mode":"sync","delay_ms":60000,"first_status":"completed","first_items":["function_call"],"first_text_chars":0,"t_first_ms":2056,"t_second_ms":4437,"t_total_ms":66495,"second_status":"completed","second_items":["reasoning","message(final_answer)"],"continuation_ok":true,"error":null,"cost_usd":0.0127}
+[19:28:15.277] === mode=async delay=60000ms ===
+[
+  {
+    "type": "function_call",
+    "name": "get_weather",
+    "call_id": "call_p7t0fDuoizvVcBmKKyHNfWbW",
+    "async": true,
+    "arguments": "{\"city\":\"パリ\"}"
+  },
+  {
+    "type": "message",
+    "phase": "commentary",
+    "text": "天気の取得を開始しました。待っている間に、都市旅行に共通して役立つ持ち物を3つ挙げます。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **コンパクトなバッグ**：貴重品を身につけて持ち歩くために。\n\nパリの天気は、デモデータの取得結果が届いてからお伝えします。"
+  },
+  {
+    "type": "reasoning",
+    "summary": "(encrypted)"
+  },
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "パリのデモ天気は現在、取得結果を待っています。届くまでは気温や天候を推測せず、結果を確認してからお伝えします。"
+  }
+]
+[19:28:23.837] tool sleeping 60000ms ...
+[
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "パリの**デモ天気**は、**晴れ、気温22℃**です。\n\n※これはデモデータであり、実際の最新の天気ではありません。"
+  }
+]
+[19:29:27.063] {"mode":"async","delay_ms":60000,"first_status":"completed","first_items":["function_call","message(commentary)","reasoning","message(final_answer)"],"first_text_chars":235,"t_first_ms":8557,"t_second_ms":3223,"t_total_ms":71786,"second_status":"completed","second_items":["message(final_answer)"],"continuation_ok":true,"error":null,"cost_usd":0.01949}
+[19:29:27.064] === mode=sync delay=180000ms ===
+[
+  {
+    "type": "function_call",
+    "name": "get_weather",
+    "call_id": "call_OGG99Y2Z3pdHq5CBirHEG2fr",
+    "arguments": "{\"city\":\"Paris\"}"
+  }
+]
+[19:29:29.163] tool sleeping 180000ms ...
+[
+  {
+    "type": "reasoning",
+    "summary": "(encrypted)"
+  },
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "都市旅行に共通して役立つ持ち物は、次の3つです。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **小さめの斜めがけバッグ**：貴重品を身につけて持ち歩くために。\n\n**パリのデモ天気**は、**晴れ、22°C**です。これはデモデータであり、リアルタイムの天気ではありません。"
+  }
+]
+[19:32:33.733] {"mode":"sync","delay_ms":180000,"first_status":"completed","first_items":["function_call"],"first_text_chars":0,"t_first_ms":2099,"t_second_ms":4569,"t_total_ms":186669,"second_status":"completed","second_items":["reasoning","message(final_answer)"],"continuation_ok":true,"error":null,"cost_usd":0.01299}
+[19:32:33.734] === mode=async delay=180000ms ===
+[
+  {
+    "type": "function_call",
+    "name": "get_weather",
+    "call_id": "call_hbMjh4xlddm6m0UuWmn3ihuH",
+    "async": true,
+    "arguments": "{\"city\":\"Paris\"}"
+  },
+  {
+    "type": "message",
+    "phase": "commentary",
+    "text": "天気の取得を開始しました。待っている間に、都市旅行に共通して役立つ持ち物を3つ挙げます。\n\n1. **歩きやすい靴**：街歩きや駅での移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **小さめの斜め掛けバッグ**：貴重品をまとめ、体の前で管理するために。"
+  },
+  {
+    "type": "reasoning",
+    "summary": "(encrypted)"
+  },
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "パリの**デモ天気**は取得結果の到着待ちです。気温や天候は、結果を確認してからお伝えします。"
+  }
+]
+[19:32:39.866] tool sleeping 180000ms ...
+[
+  {
+    "type": "message",
+    "phase": "final_answer",
+    "text": "パリのデモ天気は、**晴れ、気温22°C**です。\n\n※これはデモデータであり、実際の最新の天気ではありません。"
+  }
+]
+[19:35:42.501] {"mode":"async","delay_ms":180000,"first_status":"completed","first_items":["function_call","message(commentary)","reasoning","message(final_answer)"],"first_text_chars":200,"t_first_ms":6131,"t_second_ms":2633,"t_total_ms":188766,"second_status":"completed","second_items":["message(final_answer)"],"continuation_ok":true,"error":null,"cost_usd":0.01764}
+
+| mode | tool 遅延 | 1 本目 | 1 本目の items | 1 本目の文字数 | 継続 | 2 本目 | 合計 | 継続成功 |
+|---|---|---|---|---|---|---|---|---|
+| sync | 0s | 2997ms | function_call | 0 | 3845ms | reasoning → message(final_answer) | 6.8s | true |
+| async | 0s | 8895ms | function_call → message(commentary) → reasoning → message(final_answer) | 224 | 6663ms | message(final_answer) | 15.6s | true |
+| sync | 10s | 1749ms | function_call | 0 | 5973ms | reasoning → message(final_answer) | 17.7s | true |
+| async | 10s | 7654ms | function_call → message(commentary) → reasoning → message(final_answer) | 232 | 2775ms | message(final_answer) | 20.4s | true |
+| sync | 60s | 2056ms | function_call | 0 | 4437ms | reasoning → message(final_answer) | 66.5s | true |
+| async | 60s | 8557ms | function_call → message(commentary) → reasoning → message(final_answer) | 235 | 3223ms | message(final_answer) | 71.8s | true |
+| sync | 180s | 2099ms | function_call | 0 | 4569ms | reasoning → message(final_answer) | 186.7s | true |
+| async | 180s | 6131ms | function_call → message(commentary) → reasoning → message(final_answer) | 200 | 2633ms | message(final_answer) | 188.8s | true |

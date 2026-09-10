@@ -1,0 +1,122 @@
+{
+  "id": "resp_07c8d15a5955ef78006aa1b2a57e4887d0a48e7d3aa699715d",
+  "object": "response",
+  "created_at": 1788981925,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788981929,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "天気の取得を開始してください。天気とは関係のない持ち物の質問には、取得結果を待たずに先に答えてください。天気はツール結果が届いてから実際の値を使い、推測で書かないでください。天気がデモデータであることを明示してください。",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6-astra",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_07c8d15a5955ef78006aa1b2a673c487d0be0d1d5901150831",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqobKpM57eCI9-v2VGj0NSowzlh3Ljg-j53mFu8V9Pb3R6NSCPDzqjON8NDM8ttHneytFsVkMDzZveROhXYAvh7fTx5hhCNtD-_UivmtpdjxLPydCYA4pgzajxr9eG5daj_-5qYcFSkejqX2_SICsJlITfFcrZeHuuO_0hYeGpMTVOUOKGVdylpkrmG4jYXN57MSOehIX54FWiZCCR7qH_liQxhuP1j0RsAtolxqZrCNXNznTuCzHvPrXQa6T33N5r6eBtOjDT4iLm_JsdViclPonTBhu4jA520VxzbPRpldT5DBYTc3EbQBo31gGets1dVLSmXIeyIFF6pb5yWpkUAzcU0RTtBJZfIAjrEpxkb_-jITrLgKcLmwtlfl3gLPHTSnAttzdKTLVpqNgeOyiypw0xZkP9et5AZDVJwaPm39-1h0rLhgyxb3cN83JDL21DRTi6-rszEjd2loIfde8UqXNFyId2EMazEMiTcC4-MCbrEhlL_e6GoYSSG0fBXoLWIKSAQ4e2NWuzAWeI8R3hltLVrlNpF9VogBho9r_XwGzxIYcmh6mLefzcqtUs8HtHV9buhLCTEhooXMJCisJbHvu6likvCIJhPk2p_UgYgq6lTxqN7E48F4zo4LJlXyMv3cmniNT9lqEv2PhKuMKcGtL_WSuNvFu2DeMctFMCVZOIfz6E_zuCS4JAbFmzCKFEwj7nZ4Q5eMuX1ob0Vd2qKavvWYxfgfBStTJ_AAVnU-YPhEpgmce56pRetwMvsUb6ne99jKj180uH91OUMT_bxe_CHOYwIdmQ76J9vVRd_sH1GUWrFR4mPo5Yc49FCXSaNEatEgP560kKsk7Of_eM5NvJwXIICcnQdtM93pHuewFWa0yDbUgEaN_gYOL4wKI2TuorHUKTqL5uBOUAoaMzUFf-XvZ1ZTTVFoSo4EKXrdWOfUWYCi4MLPr7bOfNzo5r6gMPJ73mg9vLGHlN_uNg7BjpFHFSoGjT5S4aB7jEdApYudE1yVs4iGa9RV_3Toc3qKdVm4iehqkLRSd6_J1OFILNxzq1y-1iytOL5Xbk48xxcM4EUYftGjFE1nsiRSKcgmJ-5ayLZViN4ZynKVDMbdviIOQklEqSFexDZw8z97NK_khreyIoMNEudIl41sJ7t0_GoV6Bu4WTWbeDXA3m1Nxviwxt6bEetKPjJmzFEg9CPoqgX_tX3wjC-CEFsxjf9p86tdXbBdDQWTPMmD1OGp3JcIRWHzEAhCGKXfY5nmmTk4JBPAC4KG9-j4iDxjrGLLX6",
+      "summary": []
+    },
+    {
+      "id": "msg_07c8d15a5955ef78006aa1b2a6ef7887d088f27a9bf3ccfe8b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "都市旅行に共通して役立つ持ち物は、次の3つです。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **小さめのバッグ**：貴重品や必要な物をまとめて持ち歩くために。\n\nパリの**デモ天気**は、**晴れ、22℃**です。実際の現在の天気ではなく、デモ用のスナップショットです。"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": "resp_07c8d15a5955ef78006aa1b2a0433087d094d5688c99ccabda",
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "function",
+      "description": "Read the demo weather snapshot for a city.",
+      "name": "get_weather",
+      "output_schema": null,
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "city"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 211,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 375
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "都市旅行に共通して役立つ持ち物は、次の3つです。\n\n1. **歩きやすい靴**：徒歩での観光や移動に。\n2. **モバイルバッテリー**：地図や電子チケットを使うスマートフォンの充電に。\n3. **小さめのバッグ**：貴重品や必要な物をまとめて持ち歩くために。\n\nパリの**デモ天気**は、**晴れ、22℃**です。実際の現在の天気ではなく、デモ用のスナップショットです。"
+}

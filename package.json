@@ -1,0 +1,31 @@
+{
+  "name": "gpt6",
+  "version": "1.0.0",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "01": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx src/01_breaking_changes.ts",
+    "02": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx src/02_async_basic.ts",
+    "03": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx src/03_benchmark.ts",
+    "04": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx src/04_steering.ts",
+    "05": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx src/05_async_steer.ts",
+    "06": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx src/06_judge.ts",
+    "07": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx src/07_slow_tool.ts",
+    "08": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx src/08_sync_basic.ts",
+    "09": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx src/09_bench_sync_sample.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "openai": "^7.13.0",
+    "ws": "^8.21.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}

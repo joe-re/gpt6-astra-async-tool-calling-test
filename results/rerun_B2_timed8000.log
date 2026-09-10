@@ -1,0 +1,54 @@
+.env not found. Continuing without it.
+[19:32:49.610] scenario=timed steer_at=8000
+[19:32:51.165] {"t_ms":1554,"type":"response.created","response_id":"resp_06b32685a8a6ce9a006aa1b4630a6887d0aa8ea86b65837312","status":"in_progress","incomplete":null}
+[19:32:51.175] {"t_ms":1564,"type":"response.in_progress","response_id":"resp_06b32685a8a6ce9a006aa1b4630a6887d0aa8ea86b65837312","status":"in_progress","incomplete":null}
+[19:32:52.844] {"t_ms":3234,"type":"response.output_item.added"}
+[19:32:52.844] {"t_ms":3234,"type":"response.content_part.added"}
+[19:32:59.165] >>> response.steer #1 (32 chars) at 9555ms
+[19:32:59.296] {"t_ms":9686,"type":"response.steer.accepted","steer":{"id":"steer_6dbbbcb9978142218e7149b7ff424a6a","previous_response_id":"resp_06b32685a8a6ce9a006aa1b4630a6887d0aa8ea86b65837312"}}
+[19:33:22.572] {"t_ms":32961,"type":"response.output_text.done"}
+[19:33:22.573] {"t_ms":32963,"type":"response.content_part.done"}
+[19:33:22.573] {"t_ms":32963,"type":"response.output_item.done"}
+[19:33:22.702] {"t_ms":33092,"type":"response.completed","response_id":"resp_06b32685a8a6ce9a006aa1b4630a6887d0aa8ea86b65837312","status":"completed","incomplete":null}
+[19:33:22.794] {"t_ms":33184,"type":"response.created","response_id":"resp_06b32685a8a6ce9a006aa1b482b83c87d0aac5d768f437923b","status":"in_progress","incomplete":null}
+[19:33:22.811] {"t_ms":33201,"type":"response.in_progress","response_id":"resp_06b32685a8a6ce9a006aa1b482b83c87d0aac5d768f437923b","status":"in_progress","incomplete":null}
+[19:33:24.994] {"t_ms":35384,"type":"response.output_item.added"}
+[19:33:24.994] {"t_ms":35384,"type":"response.content_part.added"}
+[19:33:54.503] {"t_ms":64893,"type":"response.output_text.done"}
+[19:33:54.503] {"t_ms":64893,"type":"response.content_part.done"}
+[19:33:54.503] {"t_ms":64893,"type":"response.output_item.done"}
+[19:33:54.665] {"t_ms":65055,"type":"response.completed","response_id":"resp_06b32685a8a6ce9a006aa1b482b83c87d0aac5d768f437923b","status":"completed","incomplete":null}
+{
+  "scenario": "timed",
+  "steer_at_ms": 8000,
+  "steers_sent": 1,
+  "initial_id": "resp_06b32685a8a6ce9a006aa1b4630a6887d0aa8ea86b65837312",
+  "responses": [
+    {
+      "id": "resp_06b32685a8a6ce9a006aa1b4630a6887d0aa8ea86b65837312",
+      "created_at_ms": 1554,
+      "status": "completed",
+      "text_len": 2205,
+      "text_head": "# タスク管理アプリ開発プロジェクト計画書\n\n## 第1章　機能一覧\n\n本プロジェクトでは、個人および小規模チームが日々の業務を整理し、進捗を共有できるWebアプリを開発する。初期リリースは最小限の実用的な製品（MVP）とし、「登録・整理・共有」の基本操作を使いやすく実現する。想定利用者は5〜20名程度のチームで、PCとスマートフォンのブラウザから利用できる設計とする。\n\n主要機能は以下のとおりと"
+    },
+    {
+      "id": "resp_06b32685a8a6ce9a006aa1b482b83c87d0aac5d768f437923b",
+      "created_at_ms": 33184,
+      "status": "completed",
+      "text_len": 2210,
+      "text_head": "# タスク管理アプリ開発プロジェクト計画書（縮小版）\n\n## 第1章　機能一覧\n\n本プロジェクトでは、**開発者1人・2週間（10営業日）**で完成できる、個人向けタスク管理Webアプリを開発する。目的は「今日やることを登録し、完了まで管理すること」に限定する。チーム共有やサーバー運用を前提とせず、1つのブラウザで利用するMVPとする。\n\n実装する機能は以下の5点に絞る。\n\n- **タスク登録**"
+    }
+  ],
+  "event_types": {
+    "response.created": 2,
+    "response.in_progress": 2,
+    "response.output_item.added": 2,
+    "response.content_part.added": 2,
+    "response.output_text.delta": 3142,
+    "response.steer.accepted": 1,
+    "response.output_text.done": 2,
+    "response.content_part.done": 2,
+    "response.output_item.done": 2,
+    "response.completed": 2
+  }
+}

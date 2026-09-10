@@ -1,0 +1,67 @@
+{
+  "first": {
+    "status": "completed",
+    "usage": {
+      "input_tokens": 122,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 52,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 174
+    },
+    "output": [
+      {
+        "id": "fc_035c35680a490601006aa1b2bf01b887d0b946935f2dc0b6a0",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"pair\":\"USD/JPY\"}",
+        "call_id": "call_MtCcZfMkgv93IoiGGdgZ6czi",
+        "name": "fetch_rate"
+      },
+      {
+        "id": "fc_035c35680a490601006aa1b2bf01cc87d0b6f3a537556cd1d0",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"pair\":\"USD/JPY\"}",
+        "call_id": "call_uZlrkh2NfmLSu4s1UeyCznAC",
+        "name": "fetch_news"
+      }
+    ]
+  },
+  "second": {
+    "status": "completed",
+    "usage": {
+      "input_tokens": 242,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 396,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 638
+    },
+    "output": [
+      {
+        "id": "msg_035c35680a490601006aa1b2c39ae087d0bcf2e705cf13424c",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## USD/JPY のレートと関連ニュース\n\n取得先が **デモデータ** を返したため、実際の最新レート・ニュースは確認できませんでした。\n\n- **レート：** 1米ドル＝150.25円（デモ値。実際の取引には使わないでください）\n- **関連ニュース：** 仮の見出しのみだったため、紹介できる実ニュースはありません。\n\n最新情報は金融機関や金融情報サイトで確認してください。送金時には、市場レートではなく**送金業者が実際に適用するレート**を見ることが重要です。\n\n## 海外送金で手数料を抑えるコツ 3つ\n\n1. **送金手数料だけでなく「受取額」で比較する**  \n   「手数料無料」でも為替レートに上乗せがある場合があります。同じ支払総額で、為替コスト・中継銀行手数料・受取手数料を差し引いた最終受取額を比べましょう。\n\n2. **送金先・通貨に合うサービスと入金方法を選ぶ**  \n   銀行と、送金先に対応した登録済みの海外送金サービスを比較しましょう。カード払いより銀行振込での入金が安い場合もあります。初回割引だけでなく通常料金も確認してください。\n\n3. **固定手数料がかかるなら、送金をまとめる**  \n   少額を何度も送るより、回数を減らすと固定費を抑えられます。ただし、まとめるまでの為替変動や送金上限、必要な着金日に注意しましょう。"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ]
+  }
+}
